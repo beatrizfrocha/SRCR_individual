@@ -30,3 +30,19 @@ caminho1(_,A,[A|P1],[A|P1]).
 caminho1(G,A,[Y|P1],P) :- 
    adjacente(X,Y,G), \+ memberchk(X,[Y|P1]), caminho1(G,A,[X,Y|P1],P).
 
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Excluir um ou mais operadores de transporte para o percurso
+
+equals([], _, []).
+equals([(A,X)|Tail], L2, Result):- member(X, L2), !, equals(Tail, L2, Result1), Result = [A|Result1]. 
+equals([(A,X)|Tail], L2, Result):- equals(Tail, L2, Result).
+
+remove_aresta([], _, []).
+remove_aresta([aresta(A,B)|Tail], L2, Result):- member(A, L2), !, remove_aresta(Tail, L2, Result);
+                                                member(B, L2), !, remove_aresta(Tail, L2, Result).
+remove_aresta([aresta(A,B)|Tail], L2, [aresta(A,B)|Result]):- remove_aresta(Tail, L2, Result).
+
+exclui_op(G,[],G).
+exclui_op(grafo(A,B),L,R) :- equals(A,L,R1), remove_aresta(B,R1,R2), R = grafo(A,R2). 
+
+trajeto_sem_op(G,A,B,O,P) :- exclui_op(G,O,R), caminho(R,A,B,P).
