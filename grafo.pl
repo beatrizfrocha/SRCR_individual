@@ -3818,7 +3818,7 @@ g_op(grafo([('79','Vimeca'),
 ]
 )).
 
-g_abrigo(grafo([('79','Yes'),
+g_publicidade(grafo([('79','Yes'),
 ('593','No'),
 ('499','Yes'),
 ('494','No'),
@@ -4618,6 +4618,2316 @@ g_abrigo(grafo([('79','Yes'),
 ('463','No'),
 ('8','No'),
 ('5','No')]
+,[
+  aresta('183','791')
+, aresta('791','595')
+, aresta('595','182')
+, aresta('182','499')
+, aresta('499','593')
+, aresta('593','181')
+, aresta('181','180')
+, aresta('180','594')
+, aresta('594','185')
+, aresta('185','89')
+, aresta('89','107')
+, aresta('107','250')
+, aresta('250','261')
+, aresta('261','597')
+, aresta('597','953')
+, aresta('953','609')
+, aresta('609','242')
+, aresta('242','255')
+, aresta('255','604')
+, aresta('604','628')
+, aresta('628','39')
+, aresta('39','50')
+, aresta('50','599')
+, aresta('599','40')
+, aresta('40','985')
+, aresta('985','608')
+, aresta('608','249')
+, aresta('249','254')
+, aresta('254','622')
+, aresta('622','51')
+, aresta('51','44')
+, aresta('44','251')
+, aresta('251','38')
+, aresta('38','620')
+, aresta('620','45')
+, aresta('45','614')
+, aresta('614','46')
+, aresta('46','42')
+, aresta('42','600')
+, aresta('600','602')
+, aresta('602','601')
+, aresta('601','48')
+, aresta('48','49')
+, aresta('49','612')
+, aresta('612','613')
+, aresta('613','611')
+, aresta('611','610')
+, aresta('610','336')
+, aresta('336','357')
+, aresta('357','334')
+, aresta('334','339')
+, aresta('339','347')
+, aresta('347','86')
+, aresta('86','85')
+, aresta('85','341')
+, aresta('341','342')
+, aresta('342','365')
+, aresta('365','366')
+, aresta('366','460')
+, aresta('460','468')
+, aresta('468','485')
+, aresta('485','486')
+, aresta('486','487')
+, aresta('487','488')
+, aresta('488','469')
+, aresta('469','462')
+, aresta('462','480')
+, aresta('480','494')
+, aresta('494','957')
+, aresta('957','465')
+, aresta('465','186')
+, aresta('186','466')
+, aresta('466','467')
+, aresta('467','78')
+, aresta('78','79')
+, aresta('745','736')
+, aresta('736','147')
+, aresta('147','156')
+, aresta('156','734')
+, aresta('734','161')
+, aresta('161','162')
+, aresta('162','172')
+, aresta('172','171')
+, aresta('171','595')
+, aresta('595','594')
+, aresta('594','185')
+, aresta('185','107')
+, aresta('107','237')
+, aresta('237','250')
+, aresta('250','261')
+, aresta('261','597')
+, aresta('597','953')
+, aresta('953','248')
+, aresta('248','244')
+, aresta('244','245')
+, aresta('245','243')
+, aresta('243','247')
+, aresta('247','609')
+, aresta('609','799')
+, aresta('799','599')
+, aresta('599','1010')
+, aresta('1010','246')
+, aresta('246','260')
+, aresta('260','227')
+, aresta('227','230')
+, aresta('230','234')
+, aresta('234','224')
+, aresta('224','239')
+, aresta('239','238')
+, aresta('238','226')
+, aresta('226','1001')
+, aresta('1001','607')
+, aresta('607','232')
+, aresta('232','52')
+, aresta('52','233')
+, aresta('233','231')
+, aresta('231','241')
+, aresta('241','240')
+, aresta('240','859')
+, aresta('859','858')
+, aresta('858','332')
+, aresta('332','331')
+, aresta('331','315')
+, aresta('315','312')
+, aresta('312','360')
+, aresta('360','313')
+, aresta('313','323')
+, aresta('323','351')
+, aresta('351','352')
+, aresta('352','339')
+, aresta('339','347')
+, aresta('347','86')
+, aresta('86','85')
+, aresta('85','341')
+, aresta('341','342')
+, aresta('342','346')
+, aresta('346','343')
+, aresta('343','345')
+, aresta('345','344')
+, aresta('344','363')
+, aresta('363','335')
+, aresta('335','457')
+, aresta('457','458')
+, aresta('458','490')
+, aresta('490','491')
+, aresta('491','56')
+, aresta('56','655')
+, aresta('655','654')
+, aresta('654','78')
+, aresta('78','80')
+, aresta('745','736')
+, aresta('736','147')
+, aresta('147','156')
+, aresta('156','161')
+, aresta('161','162')
+, aresta('162','172')
+, aresta('172','171')
+, aresta('171','799')
+, aresta('799','1010')
+, aresta('1010','227')
+, aresta('227','230')
+, aresta('230','234')
+, aresta('234','224')
+, aresta('224','226')
+, aresta('226','232')
+, aresta('232','52')
+, aresta('52','233')
+, aresta('233','231')
+, aresta('231','886')
+, aresta('886','473')
+, aresta('473','470')
+, aresta('470','483')
+, aresta('483','482')
+, aresta('482','476')
+, aresta('476','904')
+, aresta('904','472')
+, aresta('472','902')
+, aresta('902','893')
+, aresta('893','465')
+, aresta('465','186')
+, aresta('186','652')
+, aresta('652','6')
+, aresta('6','466')
+, aresta('466','9')
+, aresta('9','467')
+, aresta('467','78')
+, aresta('183','791')
+, aresta('791','595')
+, aresta('595','182')
+, aresta('182','181')
+, aresta('181','180')
+, aresta('180','594')
+, aresta('594','185')
+, aresta('185','89')
+, aresta('89','90')
+, aresta('90','107')
+, aresta('107','250')
+, aresta('250','597')
+, aresta('597','953')
+, aresta('953','609')
+, aresta('609','599')
+, aresta('599','1001')
+, aresta('1001','607')
+, aresta('183','791')
+, aresta('791','595')
+, aresta('595','182')
+, aresta('182','181')
+, aresta('181','180')
+, aresta('180','594')
+, aresta('594','185')
+, aresta('185','89')
+, aresta('89','107')
+, aresta('107','250')
+, aresta('250','261')
+, aresta('261','597')
+, aresta('597','953')
+, aresta('953','605')
+, aresta('605','606')
+, aresta('606','609')
+, aresta('609','82')
+, aresta('82','604')
+, aresta('604','628')
+, aresta('628','39')
+, aresta('39','50')
+, aresta('50','599')
+, aresta('599','40')
+, aresta('40','622')
+, aresta('622','51')
+, aresta('51','38')
+, aresta('38','620')
+, aresta('620','45')
+, aresta('45','602')
+, aresta('602','601')
+, aresta('601','860')
+, aresta('860','861')
+, aresta('861','359')
+, aresta('359','349')
+, aresta('349','29')
+, aresta('29','646')
+, aresta('646','642')
+, aresta('642','30')
+, aresta('30','17')
+, aresta('17','643')
+, aresta('643','20')
+, aresta('20','36')
+, aresta('36','638')
+, aresta('638','637')
+, aresta('637','361')
+, aresta('361','362')
+, aresta('362','37')
+, aresta('37','26')
+, aresta('26','27')
+, aresta('27','28')
+, aresta('28','641')
+, aresta('641','635')
+, aresta('635','679')
+, aresta('679','688')
+, aresta('688','675')
+, aresta('675','72')
+, aresta('72','75')
+, aresta('75','671')
+, aresta('671','657')
+, aresta('657','70')
+, aresta('70','526')
+, aresta('859','858')
+, aresta('858','360')
+, aresta('360','370')
+, aresta('370','351')
+, aresta('351','19')
+, aresta('19','371')
+, aresta('371','18')
+, aresta('18','352')
+, aresta('352','16')
+, aresta('16','339')
+, aresta('339','347')
+, aresta('347','362')
+, aresta('362','26')
+, aresta('26','27')
+, aresta('27','28')
+, aresta('28','86')
+, aresta('86','348')
+, aresta('348','85')
+, aresta('85','337')
+, aresta('337','338')
+, aresta('338','341')
+, aresta('341','342')
+, aresta('342','346')
+, aresta('346','345')
+, aresta('345','344')
+, aresta('344','363')
+, aresta('363','335')
+, aresta('335','492')
+, aresta('492','340')
+, aresta('340','468')
+, aresta('468','485')
+, aresta('485','486')
+, aresta('486','487')
+, aresta('487','488')
+, aresta('712','713')
+, aresta('713','714')
+, aresta('714','128')
+, aresta('128','745')
+, aresta('745','736')
+, aresta('736','147')
+, aresta('147','153')
+, aresta('153','149')
+, aresta('149','734')
+, aresta('734','159')
+, aresta('159','155')
+, aresta('155','741')
+, aresta('741','742')
+, aresta('742','686')
+, aresta('686','687')
+, aresta('687','87')
+, aresta('87','154')
+, aresta('154','709')
+, aresta('709','1014')
+, aresta('1014','68')
+, aresta('68','788')
+, aresta('788','170')
+, aresta('170','183')
+, aresta('183','791')
+, aresta('791','595')
+, aresta('595','182')
+, aresta('182','181')
+, aresta('181','180')
+, aresta('180','594')
+, aresta('594','185')
+, aresta('185','89')
+, aresta('89','90')
+, aresta('90','107')
+, aresta('107','250')
+, aresta('250','597')
+, aresta('597','953')
+, aresta('953','806')
+, aresta('806','609')
+, aresta('609','599')
+, aresta('599','860')
+, aresta('860','861')
+, aresta('861','359')
+, aresta('359','349')
+, aresta('349','643')
+, aresta('643','638')
+, aresta('638','637')
+, aresta('637','361')
+, aresta('361','362')
+, aresta('362','25')
+, aresta('25','37')
+, aresta('37','26')
+, aresta('26','24')
+, aresta('24','22')
+, aresta('22','27')
+, aresta('27','28')
+, aresta('28','34')
+, aresta('34','641')
+, aresta('641','635')
+, aresta('635','679')
+, aresta('679','688')
+, aresta('688','675')
+, aresta('675','72')
+, aresta('72','75')
+, aresta('75','671')
+, aresta('671','657')
+, aresta('657','70')
+, aresta('70','526')
+, aresta('128','745')
+, aresta('745','736')
+, aresta('736','147')
+, aresta('147','156')
+, aresta('156','734')
+, aresta('734','161')
+, aresta('161','162')
+, aresta('162','172')
+, aresta('172','171')
+, aresta('171','183')
+, aresta('183','791')
+, aresta('791','595')
+, aresta('595','182')
+, aresta('182','181')
+, aresta('181','180')
+, aresta('180','594')
+, aresta('594','185')
+, aresta('185','89')
+, aresta('89','90')
+, aresta('90','107')
+, aresta('107','250')
+, aresta('250','597')
+, aresta('597','953')
+, aresta('953','248')
+, aresta('248','243')
+, aresta('243','247')
+, aresta('247','609')
+, aresta('609','242')
+, aresta('242','255')
+, aresta('255','82')
+, aresta('82','604')
+, aresta('604','628')
+, aresta('628','799')
+, aresta('799','39')
+, aresta('39','50')
+, aresta('50','599')
+, aresta('599','40')
+, aresta('40','1010')
+, aresta('1010','246')
+, aresta('246','260')
+, aresta('260','985')
+, aresta('985','608')
+, aresta('608','249')
+, aresta('249','254')
+, aresta('254','227')
+, aresta('227','622')
+, aresta('622','230')
+, aresta('230','51')
+, aresta('51','44')
+, aresta('44','234')
+, aresta('234','38')
+, aresta('38','224')
+, aresta('224','620')
+, aresta('620','45')
+, aresta('45','614')
+, aresta('614','239')
+, aresta('239','238')
+, aresta('238','46')
+, aresta('46','226')
+, aresta('226','42')
+, aresta('42','600')
+, aresta('600','602')
+, aresta('602','601')
+, aresta('601','48')
+, aresta('48','49')
+, aresta('49','232')
+, aresta('232','52')
+, aresta('52','612')
+, aresta('612','613')
+, aresta('613','233')
+, aresta('233','231')
+, aresta('231','241')
+, aresta('241','240')
+, aresta('240','611')
+, aresta('611','610')
+, aresta('610','859')
+, aresta('859','858')
+, aresta('858','861')
+, aresta('861','332')
+, aresta('332','331')
+, aresta('331','315')
+, aresta('315','312')
+, aresta('312','313')
+, aresta('313','323')
+, aresta('323','351')
+, aresta('351','19')
+, aresta('19','371')
+, aresta('371','16')
+, aresta('16','339')
+, aresta('339','26')
+, aresta('26','27')
+, aresta('27','86')
+, aresta('86','338')
+, aresta('338','342')
+, aresta('342','345')
+, aresta('345','363')
+, aresta('363','492')
+, aresta('492','460')
+, aresta('460','468')
+, aresta('468','486')
+, aresta('486','487')
+, aresta('706','703')
+, aresta('703','719')
+, aresta('719','718')
+, aresta('718','728')
+, aresta('728','729')
+, aresta('729','724')
+, aresta('724','129')
+, aresta('129','763')
+, aresta('763','754')
+, aresta('754','183')
+, aresta('183','791')
+, aresta('791','595')
+, aresta('595','182')
+, aresta('182','181')
+, aresta('181','180')
+, aresta('180','594')
+, aresta('594','185')
+, aresta('185','89')
+, aresta('89','90')
+, aresta('90','107')
+, aresta('107','250')
+, aresta('250','597')
+, aresta('597','953')
+, aresta('953','248')
+, aresta('248','243')
+, aresta('243','247')
+, aresta('247','609')
+, aresta('609','242')
+, aresta('242','255')
+, aresta('255','82')
+, aresta('82','604')
+, aresta('604','798')
+, aresta('798','628')
+, aresta('628','799')
+, aresta('799','39')
+, aresta('39','50')
+, aresta('50','599')
+, aresta('599','40')
+, aresta('40','1010')
+, aresta('1010','246')
+, aresta('246','260')
+, aresta('260','985')
+, aresta('985','608')
+, aresta('608','249')
+, aresta('249','254')
+, aresta('254','205')
+, aresta('205','622')
+, aresta('622','230')
+, aresta('230','51')
+, aresta('51','44')
+, aresta('44','234')
+, aresta('234','38')
+, aresta('38','224')
+, aresta('224','620')
+, aresta('620','45')
+, aresta('45','614')
+, aresta('614','239')
+, aresta('239','238')
+, aresta('238','46')
+, aresta('46','226')
+, aresta('226','42')
+, aresta('42','600')
+, aresta('600','602')
+, aresta('602','601')
+, aresta('601','48')
+, aresta('48','192')
+, aresta('192','190')
+, aresta('190','49')
+, aresta('49','232')
+, aresta('232','52')
+, aresta('52','612')
+, aresta('612','613')
+, aresta('613','193')
+, aresta('193','233')
+, aresta('233','231')
+, aresta('231','241')
+, aresta('241','240')
+, aresta('240','611')
+, aresta('611','610')
+, aresta('610','286')
+, aresta('286','332')
+, aresta('332','331')
+, aresta('331','315')
+, aresta('315','312')
+, aresta('312','314')
+, aresta('314','292')
+, aresta('292','295')
+, aresta('295','313')
+, aresta('313','270')
+, aresta('270','293')
+, aresta('293','323')
+, aresta('323','291')
+, aresta('291','278')
+, aresta('278','280')
+, aresta('706','703')
+, aresta('703','100')
+, aresta('100','718')
+, aresta('718','729')
+, aresta('729','131')
+, aresta('131','129')
+, aresta('129','720')
+, aresta('106','711')
+, aresta('711','125')
+, aresta('125','1013')
+, aresta('1013','103')
+, aresta('103','127')
+, aresta('127','715')
+, aresta('715','102')
+, aresta('102','101')
+, aresta('101','134')
+, aresta('134','744')
+, aresta('744','135')
+, aresta('135','136')
+, aresta('136','152')
+, aresta('152','732')
+, aresta('732','740')
+, aresta('740','146')
+, aresta('146','737')
+, aresta('737','145')
+, aresta('145','160')
+, aresta('160','148')
+, aresta('148','733')
+, aresta('711','125')
+, aresta('125','127')
+, aresta('127','715')
+, aresta('715','744')
+, aresta('744','744')
+, aresta('744','152')
+, aresta('152','732')
+, aresta('732','733')
+, aresta('733','151')
+, aresta('151','743')
+, aresta('743','739')
+, aresta('739','158')
+, aresta('158','157')
+, aresta('157','84')
+, aresta('84','83')
+, aresta('83','690')
+, aresta('690','738')
+, aresta('738','708')
+, aresta('708','1015')
+, aresta('1015','1016')
+, aresta('1016','169')
+, aresta('169','789')
+, aresta('789','817')
+, aresta('817','815')
+, aresta('815','814')
+, aresta('814','813')
+, aresta('813','235')
+, aresta('235','816')
+, aresta('816','236')
+, aresta('236','223')
+, aresta('223','1009')
+, aresta('1009','801')
+, aresta('801','805')
+, aresta('805','808')
+, aresta('808','809')
+, aresta('809','800')
+, aresta('800','229')
+, aresta('229','803')
+, aresta('803','632')
+, aresta('632','804')
+, aresta('804','802')
+, aresta('802','811')
+, aresta('811','810')
+, aresta('810','841')
+, aresta('841','842')
+, aresta('842','837')
+, aresta('837','835')
+, aresta('835','836')
+, aresta('836','838')
+, aresta('838','454')
+, aresta('454','455')
+, aresta('455','453')
+, aresta('711','125')
+, aresta('125','127')
+, aresta('127','715')
+, aresta('715','744')
+, aresta('744','152')
+, aresta('152','732')
+, aresta('732','780')
+, aresta('780','751')
+, aresta('751','779')
+, aresta('779','775')
+, aresta('775','776')
+, aresta('776','774')
+, aresta('774','773')
+, aresta('773','777')
+, aresta('777','778')
+, aresta('778','762')
+, aresta('762','756')
+, aresta('756','781')
+, aresta('781','785')
+, aresta('785','208')
+, aresta('208','797')
+, aresta('797','191')
+, aresta('191','795')
+, aresta('795','796')
+, aresta('796','828')
+, aresta('828','284')
+, aresta('284','285')
+, aresta('285','282')
+, aresta('282','283')
+, aresta('283','281')
+, aresta('281','294')
+, aresta('294','378')
+, aresta('378','379')
+, aresta('379','989')
+, aresta('989','869')
+, aresta('869','88')
+, aresta('88','419')
+, aresta('419','541')
+, aresta('541','542')
+, aresta('542','503')
+, aresta('503','516')
+, aresta('516','543')
+, aresta('543','10')
+, aresta('10','540')
+, aresta('540','518')
+, aresta('518','538')
+, aresta('538','310')
+, aresta('310','521')
+, aresta('521','505')
+, aresta('505','501')
+, aresta('501','967')
+, aresta('967','913')
+, aresta('913','577')
+, aresta('577','944')
+, aresta('944','969')
+, aresta('969','579')
+, aresta('579','581')
+, aresta('581','941')
+, aresta('941','576')
+, aresta('576','585')
+, aresta('585','584')
+, aresta('584','583')
+, aresta('590','591')
+, aresta('591','592')
+, aresta('592','173')
+, aresta('173','174')
+, aresta('174','175')
+, aresta('175','176')
+, aresta('176','177')
+, aresta('177','178')
+, aresta('178','693')
+, aresta('693','692')
+, aresta('692','817')
+, aresta('817','813')
+, aresta('813','816')
+, aresta('816','236')
+, aresta('236','1009')
+, aresta('1009','801')
+, aresta('801','805')
+, aresta('805','808')
+, aresta('808','809')
+, aresta('809','800')
+, aresta('800','803')
+, aresta('803','632')
+, aresta('632','804')
+, aresta('804','802')
+, aresta('802','811')
+, aresta('811','810')
+, aresta('810','841')
+, aresta('841','842')
+, aresta('842','837')
+, aresta('837','835')
+, aresta('835','836')
+, aresta('836','838')
+, aresta('838','320')
+, aresta('320','324')
+, aresta('324','325')
+, aresta('325','317')
+, aresta('317','319')
+, aresta('319','318')
+, aresta('318','327')
+, aresta('327','326')
+, aresta('326','273')
+, aresta('273','274')
+, aresta('274','431')
+, aresta('431','437')
+, aresta('437','423')
+, aresta('423','439')
+, aresta('439','409')
+, aresta('872','391')
+, aresta('391','871')
+, aresta('871','407')
+, aresta('407','873')
+, aresta('873','394')
+, aresta('394','403')
+, aresta('403','404')
+, aresta('404','408')
+, aresta('408','390')
+, aresta('390','874')
+, aresta('874','875')
+, aresta('875','398')
+, aresta('398','399')
+, aresta('399','548')
+, aresta('548','549')
+, aresta('549','570')
+, aresta('570','564')
+, aresta('564','551')
+, aresta('551','565')
+, aresta('565','553')
+, aresta('553','552')
+, aresta('552','554')
+, aresta('554','540')
+, aresta('540','567')
+, aresta('567','919')
+, aresta('919','533')
+, aresta('533','920')
+, aresta('920','566')
+, aresta('566','534')
+, aresta('534','531')
+, aresta('531','539')
+, aresta('539','532')
+, aresta('532','530')
+, aresta('530','504')
+, aresta('504','517')
+, aresta('517','310')
+, aresta('310','925')
+, aresta('925','521')
+, aresta('521','505')
+, aresta('505','501')
+, aresta('501','1025')
+, aresta('704','717')
+, aresta('717','716')
+, aresta('716','726')
+, aresta('726','727')
+, aresta('727','722')
+, aresta('722','723')
+, aresta('723','751')
+, aresta('751','762')
+, aresta('762','756')
+, aresta('756','208')
+, aresta('208','797')
+, aresta('797','191')
+, aresta('191','795')
+, aresta('795','796')
+, aresta('796','828')
+, aresta('828','830')
+, aresta('830','832')
+, aresta('832','827')
+, aresta('827','831')
+, aresta('831','266')
+, aresta('266','829')
+, aresta('829','272')
+, aresta('272','271')
+, aresta('271','380')
+, aresta('380','381')
+, aresta('381','989')
+, aresta('989','869')
+, aresta('869','541')
+, aresta('541','542')
+, aresta('542','503')
+, aresta('503','516')
+, aresta('516','543')
+, aresta('543','10')
+, aresta('10','540')
+, aresta('540','518')
+, aresta('518','538')
+, aresta('538','310')
+, aresta('310','521')
+, aresta('521','505')
+, aresta('505','501')
+, aresta('501','577')
+, aresta('590','591')
+, aresta('591','592')
+, aresta('592','173')
+, aresta('173','174')
+, aresta('174','175')
+, aresta('175','176')
+, aresta('176','950')
+, aresta('950','177')
+, aresta('177','178')
+, aresta('178','947')
+, aresta('947','792')
+, aresta('792','710')
+, aresta('710','807')
+, aresta('807','818')
+, aresta('818','823')
+, aresta('823','952')
+, aresta('952','954')
+, aresta('954','1002')
+, aresta('1002','977')
+, aresta('977','986')
+, aresta('986','983')
+, aresta('983','354')
+, aresta('354','353')
+, aresta('353','863')
+, aresta('863','856')
+, aresta('856','857')
+, aresta('857','367')
+, aresta('367','333')
+, aresta('333','846')
+, aresta('846','845')
+, aresta('845','330')
+, aresta('330','364')
+, aresta('364','33')
+, aresta('33','32')
+, aresta('32','60')
+, aresta('60','61')
+, aresta('61','64')
+, aresta('64','63')
+, aresta('63','62')
+, aresta('62','58')
+, aresta('58','57')
+, aresta('57','59')
+, aresta('59','654')
+, aresta('654','81')
+, aresta('320','324')
+, aresta('324','325')
+, aresta('325','317')
+, aresta('317','319')
+, aresta('319','318')
+, aresta('318','327')
+, aresta('327','326')
+, aresta('326','273')
+, aresta('273','274')
+, aresta('274','431')
+, aresta('431','437')
+, aresta('437','411')
+, aresta('411','442')
+, aresta('442','421')
+, aresta('421','420')
+, aresta('420','432')
+, aresta('432','413')
+, aresta('413','429')
+, aresta('429','428')
+, aresta('428','418')
+, aresta('418','439')
+, aresta('439','424')
+, aresta('424','436')
+, aresta('436','435')
+, aresta('435','415')
+, aresta('415','414')
+, aresta('414','426')
+, aresta('426','427')
+, aresta('427','425')
+, aresta('425','412')
+, aresta('412','1008')
+, aresta('1008','401')
+, aresta('401','402')
+, aresta('402','441')
+, aresta('441','564')
+, aresta('564','551')
+, aresta('551','565')
+, aresta('565','562')
+, aresta('562','553')
+, aresta('553','552')
+, aresta('552','558')
+, aresta('558','554')
+, aresta('554','563')
+, aresta('563','540')
+, aresta('540','1006')
+, aresta('1006','934')
+, aresta('934','518')
+, aresta('518','568')
+, aresta('568','310')
+, aresta('310','535')
+, aresta('535','521')
+, aresta('521','505')
+, aresta('505','501')
+, aresta('501','577')
+, aresta('524','987')
+, aresta('987','569')
+, aresta('569','1011')
+, aresta('1011','555')
+, aresta('555','525')
+, aresta('525','546')
+, aresta('546','547')
+, aresta('547','935')
+, aresta('935','545')
+, aresta('124','123')
+, aresta('123','117')
+, aresta('117','116')
+, aresta('116','119')
+, aresta('119','118')
+, aresta('118','120')
+, aresta('120','121')
+, aresta('121','122')
+, aresta('122','141')
+, aresta('141','143')
+, aresta('143','142')
+, aresta('142','139')
+, aresta('139','140')
+, aresta('140','137')
+, aresta('137','138')
+, aresta('138','770')
+, aresta('770','767')
+, aresta('767','779')
+, aresta('779','766')
+, aresta('766','691')
+, aresta('691','774')
+, aresta('774','773')
+, aresta('773','765')
+, aresta('765','764')
+, aresta('764','768')
+, aresta('768','769')
+, aresta('769','781')
+, aresta('781','785')
+, aresta('785','771')
+, aresta('771','787')
+, aresta('787','217')
+, aresta('217','218')
+, aresta('218','216')
+, aresta('216','215')
+, aresta('215','214')
+, aresta('214','452')
+, aresta('452','322')
+, aresta('322','321')
+, aresta('321','320')
+, aresta('320','317')
+, aresta('317','319')
+, aresta('319','318')
+, aresta('318','299')
+, aresta('299','273')
+, aresta('273','274')
+, aresta('274','444')
+, aresta('444','446')
+, aresta('446','445')
+, aresta('445','448')
+, aresta('448','431')
+, aresta('431','437')
+, aresta('437','423')
+, aresta('423','447')
+, aresta('447','439')
+, aresta('439','449')
+, aresta('449','450')
+, aresta('450','88')
+, aresta('88','419')
+, aresta('419','409')
+, aresta('97','98')
+, aresta('98','99')
+, aresta('99','707')
+, aresta('707','717')
+, aresta('717','716')
+, aresta('716','726')
+, aresta('726','727')
+, aresta('727','725')
+, aresta('725','132')
+, aresta('132','722')
+, aresta('722','723')
+, aresta('723','130')
+, aresta('130','731')
+, aresta('731','749')
+, aresta('749','750')
+, aresta('750','751')
+, aresta('751','775')
+, aresta('775','776')
+, aresta('776','777')
+, aresta('777','778')
+, aresta('778','748')
+, aresta('748','757')
+, aresta('757','762')
+, aresta('762','756')
+, aresta('756','782')
+, aresta('782','786')
+, aresta('786','784')
+, aresta('784','772')
+, aresta('772','783')
+, aresta('783','694')
+, aresta('694','213')
+, aresta('213','259')
+, aresta('259','222')
+, aresta('222','109')
+, aresta('109','108')
+, aresta('108','257')
+, aresta('257','258')
+, aresta('258','276')
+, aresta('276','277')
+, aresta('277','287')
+, aresta('287','1004')
+, aresta('1004','290')
+, aresta('290','289')
+, aresta('289','288')
+, aresta('288','388')
+, aresta('388','387')
+, aresta('387','386')
+, aresta('386','385')
+, aresta('385','389')
+, aresta('389','441')
+, aresta('441','1018')
+, aresta('746','747')
+, aresta('747','165')
+, aresta('165','163')
+, aresta('163','164')
+, aresta('164','761')
+, aresta('761','760')
+, aresta('760','759')
+, aresta('759','758')
+, aresta('758','166')
+, aresta('166','204')
+, aresta('204','203')
+, aresta('203','198')
+, aresta('198','199')
+, aresta('199','207')
+, aresta('207','212')
+, aresta('212','206')
+, aresta('206','201')
+, aresta('201','200')
+, aresta('200','202')
+, aresta('202','211')
+, aresta('211','194')
+, aresta('194','195')
+, aresta('195','197')
+, aresta('197','196')
+, aresta('196','189')
+, aresta('189','188')
+, aresta('188','269')
+, aresta('269','268')
+, aresta('268','830')
+, aresta('830','832')
+, aresta('832','827')
+, aresta('827','831')
+, aresta('831','266')
+, aresta('266','829')
+, aresta('829','282')
+, aresta('282','283')
+, aresta('283','281')
+, aresta('281','294')
+, aresta('294','378')
+, aresta('378','989')
+, aresta('989','869')
+, aresta('869','541')
+, aresta('541','542')
+, aresta('542','503')
+, aresta('503','516')
+, aresta('516','543')
+, aresta('543','10')
+, aresta('10','540')
+, aresta('540','540')
+, aresta('540','538')
+, aresta('538','310')
+, aresta('310','310')
+, aresta('310','925')
+, aresta('925','521')
+, aresta('521','521')
+, aresta('521','505')
+, aresta('505','505')
+, aresta('505','501')
+, aresta('501','501')
+, aresta('501','1025')
+, aresta('97','98')
+, aresta('98','717')
+, aresta('717','716')
+, aresta('716','726')
+, aresta('726','727')
+, aresta('727','730')
+, aresta('730','133')
+, aresta('133','722')
+, aresta('722','723')
+, aresta('723','721')
+, aresta('721','753')
+, aresta('753','749')
+, aresta('749','750')
+, aresta('750','748')
+, aresta('748','757')
+, aresta('757','761')
+, aresta('761','760')
+, aresta('760','759')
+, aresta('759','758')
+, aresta('758','166')
+, aresta('166','204')
+, aresta('204','203')
+, aresta('203','198')
+, aresta('198','199')
+, aresta('199','209')
+, aresta('209','210')
+, aresta('210','207')
+, aresta('207','797')
+, aresta('797','191')
+, aresta('191','795')
+, aresta('795','796')
+, aresta('796','828')
+, aresta('828','287')
+, aresta('287','1004')
+, aresta('1004','290')
+, aresta('290','289')
+, aresta('289','288')
+, aresta('288','388')
+, aresta('388','387')
+, aresta('387','386')
+, aresta('386','385')
+, aresta('385','389')
+, aresta('389','440')
+, aresta('440','558')
+, aresta('198','209')
+, aresta('209','210')
+, aresta('210','207')
+, aresta('207','206')
+, aresta('206','200')
+, aresta('200','797')
+, aresta('797','202')
+, aresta('202','211')
+, aresta('211','191')
+, aresta('191','795')
+, aresta('795','194')
+, aresta('194','195')
+, aresta('195','197')
+, aresta('197','796')
+, aresta('796','196')
+, aresta('196','189')
+, aresta('189','188')
+, aresta('188','828')
+, aresta('828','269')
+, aresta('269','268')
+, aresta('268','827')
+, aresta('827','266')
+, aresta('266','287')
+, aresta('287','1004')
+, aresta('1004','290')
+, aresta('290','279')
+, aresta('279','289')
+, aresta('289','288')
+, aresta('288','388')
+, aresta('388','387')
+, aresta('387','386')
+, aresta('386','385')
+, aresta('385','389')
+, aresta('389','440')
+, aresta('440','558')
+, aresta('219','220')
+, aresta('220','221')
+, aresta('221','300')
+, aresta('300','301')
+, aresta('301','308')
+, aresta('308','307')
+, aresta('307','320')
+, aresta('320','317')
+, aresta('317','833')
+, aresta('833','826')
+, aresta('826','1005')
+, aresta('1005','302')
+, aresta('302','319')
+, aresta('319','304')
+, aresta('304','311')
+, aresta('311','318')
+, aresta('318','303')
+, aresta('303','299')
+, aresta('299','306')
+, aresta('306','297')
+, aresta('297','305')
+, aresta('305','316')
+, aresta('316','296')
+, aresta('296','273')
+, aresta('273','274')
+, aresta('274','396')
+, aresta('396','397')
+, aresta('397','884')
+, aresta('884','437')
+, aresta('437','388')
+, aresta('388','433')
+, aresta('433','434')
+, aresta('434','380')
+, aresta('380','405')
+, aresta('405','381')
+, aresta('381','406')
+, aresta('406','411')
+, aresta('411','442')
+, aresta('442','421')
+, aresta('421','872')
+, aresta('872','420')
+, aresta('420','387')
+, aresta('387','386')
+, aresta('386','413')
+, aresta('413','443')
+, aresta('443','423')
+, aresta('423','391')
+, aresta('391','418')
+, aresta('418','395')
+, aresta('395','400')
+, aresta('400','439')
+, aresta('439','430')
+, aresta('430','436')
+, aresta('436','435')
+, aresta('435','449')
+, aresta('449','450')
+, aresta('450','438')
+, aresta('438','415')
+, aresta('415','414')
+, aresta('414','426')
+, aresta('426','427')
+, aresta('427','385')
+, aresta('385','88')
+, aresta('88','419')
+, aresta('419','389')
+, aresta('389','412')
+, aresta('412','1008')
+, aresta('1008','401')
+, aresta('401','402')
+, aresta('402','410')
+, aresta('410','275')
+, aresta('275','440')
+, aresta('440','558')
+, aresta('629','626')
+, aresta('626','630')
+, aresta('630','616')
+, aresta('616','639')
+, aresta('639','636')
+, aresta('636','12')
+, aresta('12','634')
+, aresta('634','678')
+, aresta('678','669')
+, aresta('669','76')
+, aresta('76','668')
+, aresta('668','674')
+, aresta('674','73')
+, aresta('73','658')
+, aresta('658','666')
+, aresta('666','528')
+, aresta('116','119')
+, aresta('119','118')
+, aresta('118','104')
+, aresta('104','711')
+, aresta('711','105')
+, aresta('105','125')
+, aresta('125','115')
+, aresta('115','120')
+, aresta('120','121')
+, aresta('121','1012')
+, aresta('1012','127')
+, aresta('127','715')
+, aresta('715','134')
+, aresta('134','122')
+, aresta('122','141')
+, aresta('141','143')
+, aresta('143','744')
+, aresta('744','142')
+, aresta('142','135')
+, aresta('135','136')
+, aresta('136','152')
+, aresta('152','139')
+, aresta('139','140')
+, aresta('140','732')
+, aresta('732','740')
+, aresta('740','146')
+, aresta('146','737')
+, aresta('737','145')
+, aresta('145','160')
+, aresta('160','148')
+, aresta('148','733')
+, aresta('733','137')
+, aresta('137','138')
+, aresta('138','770')
+, aresta('770','767')
+, aresta('767','766')
+, aresta('766','691')
+, aresta('691','765')
+, aresta('765','764')
+, aresta('764','228')
+, aresta('228','805')
+, aresta('805','225')
+, aresta('225','800')
+, aresta('800','229')
+, aresta('730','133')
+, aresta('133','721')
+, aresta('721','753')
+, aresta('753','761')
+, aresta('761','760')
+, aresta('760','759')
+, aresta('759','758')
+, aresta('758','166')
+, aresta('166','204')
+, aresta('204','203')
+, aresta('203','198')
+, aresta('198','199')
+, aresta('199','209')
+, aresta('209','210')
+, aresta('210','207')
+, aresta('207','797')
+, aresta('797','259')
+, aresta('259','191')
+, aresta('191','795')
+, aresta('795','113')
+, aresta('113','112')
+, aresta('112','114')
+, aresta('114','111')
+, aresta('111','109')
+, aresta('109','796')
+, aresta('796','108')
+, aresta('108','110')
+, aresta('110','257')
+, aresta('257','258')
+, aresta('258','276')
+, aresta('276','277')
+, aresta('277','287')
+, aresta('287','1004')
+, aresta('1004','290')
+, aresta('290','279')
+, aresta('279','289')
+, aresta('289','288')
+, aresta('288','388')
+, aresta('388','387')
+, aresta('387','386')
+, aresta('386','385')
+, aresta('385','389')
+, aresta('389','440')
+, aresta('11','650')
+, aresta('650','23')
+, aresta('23','13')
+, aresta('13','651')
+, aresta('651','15')
+, aresta('15','645')
+, aresta('645','54')
+, aresta('54','53')
+, aresta('53','640')
+, aresta('640','633')
+, aresta('633','677')
+, aresta('677','670')
+, aresta('670','676')
+, aresta('676','667')
+, aresta('667','673')
+, aresta('673','672')
+, aresta('672','656')
+, aresta('656','69')
+, aresta('69','168')
+, aresta('523','921')
+, aresta('921','495')
+, aresta('495','507')
+, aresta('507','509')
+, aresta('509','508')
+, aresta('508','924')
+, aresta('924','513')
+, aresta('262','263')
+, aresta('263','507')
+, aresta('507','509')
+, aresta('509','508')
+, aresta('508','924')
+, aresta('924','513')
+, aresta('267','513')
+, aresta('513','556')
+, aresta('556','522')
+, aresta('522','515')
+, aresta('515','500')
+, aresta('500','927')
+, aresta('927','511')
+, aresta('511','512')
+, aresta('512','520')
+, aresta('520','519')
+, aresta('519','265')
+, aresta('265','264')
+, aresta('264','263')
+, aresta('263','262')
+, aresta('960','561')
+, aresta('561','537')
+, aresta('537','502')
+, aresta('502','560')
+, aresta('560','559')
+, aresta('559','834')
+, aresta('834','933')
+, aresta('933','924')
+, aresta('924','928')
+, aresta('928','506')
+, aresta('506','918')
+, aresta('918','1026')
+, aresta('1026','574')
+, aresta('574','914')
+, aresta('914','497')
+, aresta('497','575')
+, aresta('575','974')
+, aresta('974','971')
+, aresta('971','580')
+, aresta('580','939')
+, aresta('939','587')
+, aresta('375','376')
+, aresta('376','495')
+, aresta('495','507')
+, aresta('507','509')
+, aresta('509','508')
+, aresta('508','924')
+, aresta('924','513')
+, aresta('603','685')
+, aresta('685','1032')
+, aresta('1032','980')
+, aresta('980','627')
+, aresta('627','43')
+, aresta('43','631')
+, aresta('631','619')
+, aresta('619','615')
+, aresta('615','623')
+, aresta('623','979')
+, aresta('979','978')
+, aresta('21','11')
+, aresta('11','650')
+, aresta('650','23')
+, aresta('23','13')
+, aresta('13','651')
+, aresta('651','15')
+, aresta('15','645')
+, aresta('645','14')
+, aresta('14','54')
+, aresta('54','633')
+, aresta('54','633')
+, aresta('633','677')
+, aresta('677','670')
+, aresta('670','676')
+, aresta('676','667')
+, aresta('667','673')
+, aresta('673','672')
+, aresta('672','656')
+, aresta('656','69')
+, aresta('21','11')
+, aresta('11','650')
+, aresta('650','23')
+, aresta('23','13')
+, aresta('13','651')
+, aresta('651','15')
+, aresta('15','645')
+, aresta('645','54')
+, aresta('54','53')
+, aresta('53','640')
+, aresta('640','633')
+, aresta('633','677')
+, aresta('677','670')
+, aresta('670','676')
+, aresta('676','667')
+, aresta('667','673')
+, aresta('673','672')
+, aresta('672','656')
+, aresta('656','69')
+, aresta('69','168')
+, aresta('459','481')
+, aresta('481','478')
+, aresta('478','479')
+, aresta('479','484')
+, aresta('484','906')
+, aresta('906','475')
+, aresta('475','477')
+, aresta('477','471')
+, aresta('471','474')
+, aresta('474','463')
+, aresta('463','493')
+, aresta('493','794')
+, aresta('794','144')
+, aresta('144','8')
+, aresta('8','187')
+, aresta('187','5')
+, aresta('5','895')
+, aresta('895','897')
+, aresta('897','681')
+]
+)).
+
+g_abrigo(grafo([('79','Fechado dos Lados'),
+('593','Sem Abrigo'),
+('499','Fechado dos Lados'),
+('494','Sem Abrigo'),
+('480','Sem Abrigo'),
+('957','Sem Abrigo'),
+('366','Fechado dos Lados'),
+('365','Fechado dos Lados'),
+('357','Fechado dos Lados'),
+('336','Fechado dos Lados'),
+('334','Fechado dos Lados'),
+('251','Fechado dos Lados'),
+('469','Fechado dos Lados'),
+('462','Sem Abrigo'),
+('44','Fechado dos Lados'),
+('78','Fechado dos Lados'),
+('609','Fechado dos Lados'),
+('599','Fechado dos Lados'),
+('595','Fechado dos Lados'),
+('185','Fechado dos Lados'),
+('250','Fechado dos Lados'),
+('107','Fechado dos Lados'),
+('953','Fechado dos Lados'),
+('594','Fechado dos Lados'),
+('597','Fechado dos Lados'),
+('261','Fechado dos Lados'),
+('341','Fechado dos Lados'),
+('85','Fechado dos Lados'),
+('347','Fechado dos Lados'),
+('342','Fechado dos Lados'),
+('86','Fechado dos Lados'),
+('339','Fechado dos Lados'),
+('186','Fechado dos Lados'),
+('467','Fechado dos Lados'),
+('466','Fechado dos Lados'),
+('465','Sem Abrigo'),
+('791','Aberto dos Lados'),
+('183','Fechado dos Lados'),
+('182','Fechado dos Lados'),
+('181','Aberto dos Lados'),
+('180','Fechado dos Lados'),
+('89','Fechado dos Lados'),
+('604','Fechado dos Lados'),
+('40','Fechado dos Lados'),
+('39','Fechado dos Lados'),
+('620','Sem Abrigo'),
+('45','Sem Abrigo'),
+('51','Fechado dos Lados'),
+('628','Sem Abrigo'),
+('50','Fechado dos Lados'),
+('38','Fechado dos Lados'),
+('622','Fechado dos Lados'),
+('602','Fechado dos Lados'),
+('601','Fechado dos Lados'),
+('485','Fechado dos Lados'),
+('488','Sem Abrigo'),
+('486','Fechado dos Lados'),
+('487','Sem Abrigo'),
+('468','Fechado dos Lados'),
+('460','Fechado dos Lados'),
+('249','Fechado dos Lados'),
+('600','Fechado dos Lados'),
+('42','Sem Abrigo'),
+('614','Fechado dos Lados'),
+('46','Fechado dos Lados'),
+('611','Fechado dos Lados'),
+('610','Sem Abrigo'),
+('49','Fechado dos Lados'),
+('48','Fechado dos Lados'),
+('613','Fechado dos Lados'),
+('612','Sem Abrigo'),
+('985','Sem Abrigo'),
+('608','Fechado dos Lados'),
+('255','Fechado dos Lados'),
+('254','Fechado dos Lados'),
+('242','Fechado dos Lados'),
+('80','Fechado dos Lados'),
+('655','Sem Abrigo'),
+('491','Fechado dos Lados'),
+('490','Fechado dos Lados'),
+('458','Fechado dos Lados'),
+('457','Fechado dos Lados'),
+('56','Sem Abrigo'),
+('343','Fechado dos Lados'),
+('237','Fechado dos Lados'),
+('245','Fechado dos Lados'),
+('244','Fechado dos Lados'),
+('734','Sem Abrigo'),
+('745','Fechado dos Lados'),
+('736','Fechado dos Lados'),
+('147','Sem Abrigo'),
+('227','Sem Abrigo'),
+('172','Sem Abrigo'),
+('171','Sem Abrigo'),
+('162','Sem Abrigo'),
+('161','Fechado dos Lados'),
+('156','Sem Abrigo'),
+('1010','Sem Abrigo'),
+('224','Sem Abrigo'),
+('234','Fechado dos Lados'),
+('233','Fechado dos Lados'),
+('232','Fechado dos Lados'),
+('231','Fechado dos Lados'),
+('52','Fechado dos Lados'),
+('230','Sem Abrigo'),
+('226','Fechado dos Lados'),
+('799','Fechado dos Lados'),
+('1001','Fechado dos Lados'),
+('607','Fechado dos Lados'),
+('335','Fechado dos Lados'),
+('346','Fechado dos Lados'),
+('344','Fechado dos Lados'),
+('360','Fechado dos Lados'),
+('352','Fechado dos Lados'),
+('363','Fechado dos Lados'),
+('345','Fechado dos Lados'),
+('859','Fechado dos Lados'),
+('858','Fechado dos Lados'),
+('351','Fechado dos Lados'),
+('654','Aberto dos Lados'),
+('243','Fechado dos Lados'),
+('248','Fechado dos Lados'),
+('247','Fechado dos Lados'),
+('332','Fechado dos Lados'),
+('331','Fechado dos Lados'),
+('323','Fechado dos Lados'),
+('315','Fechado dos Lados'),
+('312','Fechado dos Lados'),
+('241','Fechado dos Lados'),
+('240','Sem Abrigo'),
+('239','Fechado dos Lados'),
+('238','Sem Abrigo'),
+('313','Sem Abrigo'),
+('260','Sem Abrigo'),
+('246','Sem Abrigo'),
+('652','Sem Abrigo'),
+('9','Fechado dos Lados'),
+('6','Sem Abrigo'),
+('886','Sem Abrigo'),
+('473','Sem Abrigo'),
+('470','Sem Abrigo'),
+('904','Fechado dos Lados'),
+('902','Sem Abrigo'),
+('893','Sem Abrigo'),
+('483','Sem Abrigo'),
+('482','Fechado dos Lados'),
+('476','Sem Abrigo'),
+('472','Sem Abrigo'),
+('90','Fechado dos Lados'),
+('30','Fechado dos Lados'),
+('29','Fechado dos Lados'),
+('20','Fechado dos Lados'),
+('646','Sem Abrigo'),
+('642','Fechado dos Lados'),
+('606','Fechado dos Lados'),
+('605','Fechado dos Lados'),
+('36','Sem Abrigo'),
+('17','Sem Abrigo'),
+('362','Fechado dos Lados'),
+('28','Aberto dos Lados'),
+('27','Fechado dos Lados'),
+('26','Sem Abrigo'),
+('688','Fechado dos Lados'),
+('679','Fechado dos Lados'),
+('675','Fechado dos Lados'),
+('671','Fechado dos Lados'),
+('75','Aberto dos Lados'),
+('72','Fechado dos Lados'),
+('526','Fechado dos Lados'),
+('643','Fechado dos Lados'),
+('641','Fechado dos Lados'),
+('638','Fechado dos Lados'),
+('637','Fechado dos Lados'),
+('635','Fechado dos Lados'),
+('657','Fechado dos Lados'),
+('70','Sem Abrigo'),
+('349','Fechado dos Lados'),
+('860','Fechado dos Lados'),
+('361','Fechado dos Lados'),
+('359','Fechado dos Lados'),
+('37','Fechado dos Lados'),
+('861','Fechado dos Lados'),
+('82','Fechado dos Lados'),
+('1013','Sem Abrigo'),
+('102','Sem Abrigo'),
+('101','Sem Abrigo'),
+('106','Sem Abrigo'),
+('103','Sem Abrigo'),
+('737','Fechado dos Lados'),
+('744','Fechado dos Lados'),
+('715','Fechado dos Lados'),
+('711','Sem Abrigo'),
+('152','Fechado dos Lados'),
+('127','Fechado dos Lados'),
+('125','Fechado dos Lados'),
+('732','Sem Abrigo'),
+('733','Sem Abrigo'),
+('146','Sem Abrigo'),
+('145','Fechado dos Lados'),
+('136','Sem Abrigo'),
+('135','Sem Abrigo'),
+('134','Fechado dos Lados'),
+('160','Sem Abrigo'),
+('740','Sem Abrigo'),
+('148','Sem Abrigo'),
+('235','Sem Abrigo'),
+('455','Sem Abrigo'),
+('454','Sem Abrigo'),
+('453','Fechado dos Lados'),
+('739','Fechado dos Lados'),
+('738','Fechado dos Lados'),
+('690','Aberto dos Lados'),
+('84','Sem Abrigo'),
+('83','Fechado dos Lados'),
+('151','Sem Abrigo'),
+('743','Sem Abrigo'),
+('708','Sem Abrigo'),
+('1016','Sem Abrigo'),
+('1015','Sem Abrigo'),
+('815','Fechado dos Lados'),
+('814','Fechado dos Lados'),
+('789','Sem Abrigo'),
+('169','Fechado dos Lados'),
+('158','Sem Abrigo'),
+('157','Fechado dos Lados'),
+('223','Fechado dos Lados'),
+('1009','Sem Abrigo'),
+('813','Fechado dos Lados'),
+('236','Sem Abrigo'),
+('817','Fechado dos Lados'),
+('804','Fechado dos Lados'),
+('803','Fechado dos Lados'),
+('802','Fechado dos Lados'),
+('632','Fechado dos Lados'),
+('801','Sem Abrigo'),
+('842','Fechado dos Lados'),
+('841','Fechado dos Lados'),
+('838','Fechado dos Lados'),
+('837','Fechado dos Lados'),
+('835','Fechado dos Lados'),
+('816','Fechado dos Lados'),
+('811','Fechado dos Lados'),
+('810','Sem Abrigo'),
+('809','Sem Abrigo'),
+('808','Fechado dos Lados'),
+('836','Sem Abrigo'),
+('805','Fechado dos Lados'),
+('800','Fechado dos Lados'),
+('229','Fechado dos Lados'),
+('581','Fechado dos Lados'),
+('576','Fechado dos Lados'),
+('941','Fechado dos Lados'),
+('585','Fechado dos Lados'),
+('780','Fechado dos Lados'),
+('967','Fechado dos Lados'),
+('944','Sem Abrigo'),
+('579','Sem Abrigo'),
+('969','Fechado dos Lados'),
+('913','Aberto dos Lados'),
+('584','Fechado dos Lados'),
+('583','Fechado dos Lados'),
+('285','Sem Abrigo'),
+('284','Sem Abrigo'),
+('751','Sem Abrigo'),
+('310','Fechado dos Lados'),
+('505','Fechado dos Lados'),
+('501','Fechado dos Lados'),
+('540','Fechado dos Lados'),
+('521','Fechado dos Lados'),
+('208','Fechado dos Lados'),
+('577','Fechado dos Lados'),
+('518','Fechado dos Lados'),
+('762','Fechado dos Lados'),
+('756','Fechado dos Lados'),
+('543','Fechado dos Lados'),
+('10','Fechado dos Lados'),
+('538','Fechado dos Lados'),
+('869','Sem Abrigo'),
+('542','Fechado dos Lados'),
+('541','Fechado dos Lados'),
+('516','Fechado dos Lados'),
+('503','Fechado dos Lados'),
+('828','Fechado dos Lados'),
+('797','Fechado dos Lados'),
+('796','Fechado dos Lados'),
+('795','Fechado dos Lados'),
+('191','Sem Abrigo'),
+('785','Fechado dos Lados'),
+('781','Sem Abrigo'),
+('779','Fechado dos Lados'),
+('774','Fechado dos Lados'),
+('773','Sem Abrigo'),
+('419','Fechado dos Lados'),
+('88','Fechado dos Lados'),
+('778','Sem Abrigo'),
+('777','Fechado dos Lados'),
+('776','Sem Abrigo'),
+('775','Fechado dos Lados'),
+('379','Fechado dos Lados'),
+('378','Sem Abrigo'),
+('294','Fechado dos Lados'),
+('283','Fechado dos Lados'),
+('282','Fechado dos Lados'),
+('281','Fechado dos Lados'),
+('693','Fechado dos Lados'),
+('692','Fechado dos Lados'),
+('592','Fechado dos Lados'),
+('591','Fechado dos Lados'),
+('590','Sem Abrigo'),
+('176','Aberto dos Lados'),
+('175','Fechado dos Lados'),
+('174','Fechado dos Lados'),
+('173','Fechado dos Lados'),
+('178','Fechado dos Lados'),
+('177','Sem Abrigo'),
+('327','Sem Abrigo'),
+('326','Sem Abrigo'),
+('325','Fechado dos Lados'),
+('324','Fechado dos Lados'),
+('431','Fechado dos Lados'),
+('274','Fechado dos Lados'),
+('273','Sem Abrigo'),
+('439','Fechado dos Lados'),
+('437','Sem Abrigo'),
+('409','Fechado dos Lados'),
+('319','Fechado dos Lados'),
+('318','Fechado dos Lados'),
+('317','Fechado dos Lados'),
+('320','Fechado dos Lados'),
+('423','Fechado dos Lados'),
+('370','Fechado dos Lados'),
+('348','Aberto dos Lados'),
+('18','Fechado dos Lados'),
+('340','Sem Abrigo'),
+('337','Aberto dos Lados'),
+('371','Sem Abrigo'),
+('19','Sem Abrigo'),
+('16','Sem Abrigo'),
+('492','Sem Abrigo'),
+('338','Aberto dos Lados'),
+('875','Fechado dos Lados'),
+('874','Fechado dos Lados'),
+('549','Fechado dos Lados'),
+('548','Fechado dos Lados'),
+('404','Sem Abrigo'),
+('403','Fechado dos Lados'),
+('399','Sem Abrigo'),
+('398','Sem Abrigo'),
+('534','Fechado dos Lados'),
+('533','Fechado dos Lados'),
+('532','Aberto dos Lados'),
+('566','Fechado dos Lados'),
+('531','Fechado dos Lados'),
+('504','Fechado dos Lados'),
+('920','Fechado dos Lados'),
+('517','Fechado dos Lados'),
+('919','Fechado dos Lados'),
+('871','Fechado dos Lados'),
+('408','Fechado dos Lados'),
+('407','Sem Abrigo'),
+('390','Sem Abrigo'),
+('570','Fechado dos Lados'),
+('530','Fechado dos Lados'),
+('873','Sem Abrigo'),
+('394','Sem Abrigo'),
+('567','Fechado dos Lados'),
+('539','Fechado dos Lados'),
+('1025','Sem Abrigo'),
+('554','Fechado dos Lados'),
+('553','Fechado dos Lados'),
+('552','Fechado dos Lados'),
+('551','Fechado dos Lados'),
+('565','Sem Abrigo'),
+('564','Sem Abrigo'),
+('925','Fechado dos Lados'),
+('872','Sem Abrigo'),
+('391','Fechado dos Lados'),
+('705','Fechado dos Lados'),
+('704','Fechado dos Lados'),
+('272','Sem Abrigo'),
+('271','Fechado dos Lados'),
+('727','Fechado dos Lados'),
+('726','Fechado dos Lados'),
+('723','Fechado dos Lados'),
+('722','Fechado dos Lados'),
+('717','Fechado dos Lados'),
+('716','Fechado dos Lados'),
+('832','Fechado dos Lados'),
+('831','Fechado dos Lados'),
+('830','Fechado dos Lados'),
+('829','Fechado dos Lados'),
+('989','Aberto dos Lados'),
+('827','Fechado dos Lados'),
+('266','Fechado dos Lados'),
+('381','Sem Abrigo'),
+('380','Fechado dos Lados'),
+('81','Fechado dos Lados'),
+('64','Fechado dos Lados'),
+('63','Sem Abrigo'),
+('62','Fechado dos Lados'),
+('59','Sem Abrigo'),
+('58','Fechado dos Lados'),
+('57','Fechado dos Lados'),
+('364','Fechado dos Lados'),
+('61','Fechado dos Lados'),
+('60','Sem Abrigo'),
+('33','Fechado dos Lados'),
+('32','Fechado dos Lados'),
+('1002','Fechado dos Lados'),
+('986','Fechado dos Lados'),
+('983','Fechado dos Lados'),
+('977','Fechado dos Lados'),
+('950','Fechado dos Lados'),
+('792','Fechado dos Lados'),
+('333','Fechado dos Lados'),
+('823','Fechado dos Lados'),
+('818','Fechado dos Lados'),
+('807','Fechado dos Lados'),
+('710','Fechado dos Lados'),
+('954','Fechado dos Lados'),
+('947','Fechado dos Lados'),
+('952','Fechado dos Lados'),
+('846','Aberto dos Lados'),
+('845','Aberto dos Lados'),
+('367','Fechado dos Lados'),
+('330','Fechado dos Lados'),
+('863','Fechado dos Lados'),
+('857','Fechado dos Lados'),
+('856','Fechado dos Lados'),
+('354','Fechado dos Lados'),
+('353','Fechado dos Lados'),
+('535','Fechado dos Lados'),
+('1006','Fechado dos Lados'),
+('563','Fechado dos Lados'),
+('425','Fechado dos Lados'),
+('432','Aberto dos Lados'),
+('424','Aberto dos Lados'),
+('934','Fechado dos Lados'),
+('568','Fechado dos Lados'),
+('562','Fechado dos Lados'),
+('429','Sem Abrigo'),
+('428','Sem Abrigo'),
+('1008','Sem Abrigo'),
+('436','Fechado dos Lados'),
+('435','Aberto dos Lados'),
+('421','Fechado dos Lados'),
+('420','Fechado dos Lados'),
+('413','Fechado dos Lados'),
+('442','Fechado dos Lados'),
+('412','Fechado dos Lados'),
+('411','Aberto dos Lados'),
+('402','Fechado dos Lados'),
+('401','Fechado dos Lados'),
+('418','Aberto dos Lados'),
+('415','Sem Abrigo'),
+('414','Fechado dos Lados'),
+('427','Aberto dos Lados'),
+('426','Aberto dos Lados'),
+('1011','Fechado dos Lados'),
+('555','Sem Abrigo'),
+('525','Fechado dos Lados'),
+('569','Fechado dos Lados'),
+('935','Sem Abrigo'),
+('547','Fechado dos Lados'),
+('546','Sem Abrigo'),
+('545','Fechado dos Lados'),
+('987','Fechado dos Lados'),
+('524','Fechado dos Lados'),
+('787','Sem Abrigo'),
+('218','Sem Abrigo'),
+('217','Sem Abrigo'),
+('216','Sem Abrigo'),
+('215','Sem Abrigo'),
+('124','Fechado dos Lados'),
+('123','Fechado dos Lados'),
+('117','Fechado dos Lados'),
+('771','Fechado dos Lados'),
+('769','Fechado dos Lados'),
+('768','Sem Abrigo'),
+('448','Sem Abrigo'),
+('447','Sem Abrigo'),
+('446','Sem Abrigo'),
+('452','Sem Abrigo'),
+('445','Fechado dos Lados'),
+('444','Sem Abrigo'),
+('322','Fechado dos Lados'),
+('321','Fechado dos Lados'),
+('214','Sem Abrigo'),
+('450','Sem Abrigo'),
+('449','Fechado dos Lados'),
+('299','Fechado dos Lados'),
+('770','Fechado dos Lados'),
+('138','Fechado dos Lados'),
+('137','Sem Abrigo'),
+('766','Fechado dos Lados'),
+('767','Fechado dos Lados'),
+('143','Sem Abrigo'),
+('142','Sem Abrigo'),
+('140','Sem Abrigo'),
+('139','Sem Abrigo'),
+('116','Fechado dos Lados'),
+('691','Sem Abrigo'),
+('141','Sem Abrigo'),
+('122','Sem Abrigo'),
+('121','Sem Abrigo'),
+('120','Fechado dos Lados'),
+('119','Fechado dos Lados'),
+('118','Fechado dos Lados'),
+('786','Sem Abrigo'),
+('784','Sem Abrigo'),
+('772','Sem Abrigo'),
+('783','Sem Abrigo'),
+('1018','Sem Abrigo'),
+('694','Sem Abrigo'),
+('731','Sem Abrigo'),
+('782','Fechado dos Lados'),
+('222','Sem Abrigo'),
+('213','Fechado dos Lados'),
+('707','Fechado dos Lados'),
+('132','Sem Abrigo'),
+('99','Fechado dos Lados'),
+('130','Sem Abrigo'),
+('725','Sem Abrigo'),
+('441','Fechado dos Lados'),
+('750','Fechado dos Lados'),
+('749','Sem Abrigo'),
+('748','Fechado dos Lados'),
+('757','Sem Abrigo'),
+('98','Sem Abrigo'),
+('97','Sem Abrigo'),
+('389','Fechado dos Lados'),
+('388','Fechado dos Lados'),
+('387','Fechado dos Lados'),
+('386','Sem Abrigo'),
+('385','Fechado dos Lados'),
+('1004','Fechado dos Lados'),
+('290','Fechado dos Lados'),
+('288','Fechado dos Lados'),
+('287','Fechado dos Lados'),
+('289','Fechado dos Lados'),
+('277','Fechado dos Lados'),
+('276','Sem Abrigo'),
+('259','Fechado dos Lados'),
+('258','Sem Abrigo'),
+('257','Sem Abrigo'),
+('109','Fechado dos Lados'),
+('108','Fechado dos Lados'),
+('34','Fechado dos Lados'),
+('22','Fechado dos Lados'),
+('25','Sem Abrigo'),
+('24','Fechado dos Lados'),
+('714','Fechado dos Lados'),
+('713','Fechado dos Lados'),
+('712','Sem Abrigo'),
+('153','Fechado dos Lados'),
+('806','Sem Abrigo'),
+('687','Fechado dos Lados'),
+('686','Sem Abrigo'),
+('155','Fechado dos Lados'),
+('154','Fechado dos Lados'),
+('87','Aberto dos Lados'),
+('149','Sem Abrigo'),
+('159','Sem Abrigo'),
+('709','Sem Abrigo'),
+('1014','Sem Abrigo'),
+('788','Fechado dos Lados'),
+('742','Fechado dos Lados'),
+('741','Sem Abrigo'),
+('170','Sem Abrigo'),
+('68','Sem Abrigo'),
+('128','Fechado dos Lados'),
+('212','Sem Abrigo'),
+('201','Sem Abrigo'),
+('746','Sem Abrigo'),
+('165','Fechado dos Lados'),
+('164','Fechado dos Lados'),
+('163','Fechado dos Lados'),
+('747','Fechado dos Lados'),
+('198','Sem Abrigo'),
+('207','Aberto dos Lados'),
+('199','Fechado dos Lados'),
+('761','Sem Abrigo'),
+('760','Fechado dos Lados'),
+('759','Sem Abrigo'),
+('758','Fechado dos Lados'),
+('204','Fechado dos Lados'),
+('203','Sem Abrigo'),
+('166','Sem Abrigo'),
+('197','Sem Abrigo'),
+('196','Sem Abrigo'),
+('269','Sem Abrigo'),
+('268','Fechado dos Lados'),
+('189','Sem Abrigo'),
+('188','Sem Abrigo'),
+('211','Sem Abrigo'),
+('202','Fechado dos Lados'),
+('195','Sem Abrigo'),
+('194','Sem Abrigo'),
+('200','Sem Abrigo'),
+('206','Fechado dos Lados'),
+('440','Fechado dos Lados'),
+('210','Sem Abrigo'),
+('209','Aberto dos Lados'),
+('753','Fechado dos Lados'),
+('730','Sem Abrigo'),
+('721','Fechado dos Lados'),
+('133','Fechado dos Lados'),
+('558','Fechado dos Lados'),
+('279','Fechado dos Lados'),
+('205','Fechado dos Lados'),
+('193','Fechado dos Lados'),
+('192','Sem Abrigo'),
+('190','Fechado dos Lados'),
+('798','Fechado dos Lados'),
+('763','Fechado dos Lados'),
+('754','Fechado dos Lados'),
+('314','Fechado dos Lados'),
+('280','Fechado dos Lados'),
+('278','Fechado dos Lados'),
+('286','Fechado dos Lados'),
+('728','Fechado dos Lados'),
+('724','Fechado dos Lados'),
+('270','Fechado dos Lados'),
+('295','Fechado dos Lados'),
+('293','Fechado dos Lados'),
+('292','Fechado dos Lados'),
+('291','Fechado dos Lados'),
+('719','Fechado dos Lados'),
+('729','Fechado dos Lados'),
+('718','Fechado dos Lados'),
+('706','Fechado dos Lados'),
+('703','Fechado dos Lados'),
+('129','Fechado dos Lados'),
+('406','Fechado dos Lados'),
+('405','Fechado dos Lados'),
+('400','Fechado dos Lados'),
+('397','Fechado dos Lados'),
+('396','Fechado dos Lados'),
+('395','Fechado dos Lados'),
+('296','Sem Abrigo'),
+('443','Aberto dos Lados'),
+('305','Sem Abrigo'),
+('304','Sem Abrigo'),
+('303','Sem Abrigo'),
+('433','Aberto dos Lados'),
+('884','Sem Abrigo'),
+('297','Aberto dos Lados'),
+('410','Fechado dos Lados'),
+('275','Fechado dos Lados'),
+('316','Fechado dos Lados'),
+('308','Fechado dos Lados'),
+('307','Sem Abrigo'),
+('434','Aberto dos Lados'),
+('430','Aberto dos Lados'),
+('219','Sem Abrigo'),
+('221','Sem Abrigo'),
+('220','Sem Abrigo'),
+('301','Sem Abrigo'),
+('300','Sem Abrigo'),
+('826','Fechado dos Lados'),
+('1005','Sem Abrigo'),
+('306','Sem Abrigo'),
+('302','Sem Abrigo'),
+('833','Sem Abrigo'),
+('438','Aberto dos Lados'),
+('311','Fechado dos Lados'),
+('669','Fechado dos Lados'),
+('678','Fechado dos Lados'),
+('674','Fechado dos Lados'),
+('668','Fechado dos Lados'),
+('76','Fechado dos Lados'),
+('73','Fechado dos Lados'),
+('528','Fechado dos Lados'),
+('639','Fechado dos Lados'),
+('636','Fechado dos Lados'),
+('634','Fechado dos Lados'),
+('12','Fechado dos Lados'),
+('666','Sem Abrigo'),
+('658','Fechado dos Lados'),
+('630','Fechado dos Lados'),
+('629','Sem Abrigo'),
+('626','Fechado dos Lados'),
+('616','Fechado dos Lados'),
+('228','Sem Abrigo'),
+('105','Fechado dos Lados'),
+('104','Fechado dos Lados'),
+('225','Sem Abrigo'),
+('1012','Sem Abrigo'),
+('115','Sem Abrigo'),
+('765','Fechado dos Lados'),
+('764','Sem Abrigo'),
+('110','Sem Abrigo'),
+('113','Sem Abrigo'),
+('112','Sem Abrigo'),
+('111','Sem Abrigo'),
+('114','Sem Abrigo'),
+('633','Fechado dos Lados'),
+('15','Fechado dos Lados'),
+('54','Fechado dos Lados'),
+('645','Fechado dos Lados'),
+('651','Fechado dos Lados'),
+('650','Sem Abrigo'),
+('13','Fechado dos Lados'),
+('23','Sem Abrigo'),
+('11','Fechado dos Lados'),
+('673','Sem Abrigo'),
+('670','Fechado dos Lados'),
+('677','Fechado dos Lados'),
+('676','Sem Abrigo'),
+('667','Fechado dos Lados'),
+('656','Fechado dos Lados'),
+('69','Sem Abrigo'),
+('640','Fechado dos Lados'),
+('53','Fechado dos Lados'),
+('100','Fechado dos Lados'),
+('720','Fechado dos Lados'),
+('131','Sem Abrigo'),
+('393','Sem Abrigo'),
+('923','Fechado dos Lados'),
+('921','Sem Abrigo'),
+('523','Sem Abrigo'),
+('513','Fechado dos Lados'),
+('509','Fechado dos Lados'),
+('508','Fechado dos Lados'),
+('507','Fechado dos Lados'),
+('924','Fechado dos Lados'),
+('495','Fechado dos Lados'),
+('263','Fechado dos Lados'),
+('262','Fechado dos Lados'),
+('267','Fechado dos Lados'),
+('927','Sem Abrigo'),
+('515','Sem Abrigo'),
+('520','Fechado dos Lados'),
+('519','Sem Abrigo'),
+('265','Fechado dos Lados'),
+('264','Fechado dos Lados'),
+('512','Fechado dos Lados'),
+('511','Sem Abrigo'),
+('556','Sem Abrigo'),
+('522','Fechado dos Lados'),
+('500','Fechado dos Lados'),
+('587','Fechado dos Lados'),
+('834','Fechado dos Lados'),
+('960','Fechado dos Lados'),
+('933','Fechado dos Lados'),
+('506','Fechado dos Lados'),
+('974','Fechado dos Lados'),
+('971','Fechado dos Lados'),
+('918','Fechado dos Lados'),
+('939','Fechado dos Lados'),
+('502','Fechado dos Lados'),
+('537','Fechado dos Lados'),
+('574','Fechado dos Lados'),
+('1026','Sem Abrigo'),
+('580','Fechado dos Lados'),
+('497','Sem Abrigo'),
+('914','Aberto dos Lados'),
+('575','Fechado dos Lados'),
+('928','Fechado dos Lados'),
+('560','Fechado dos Lados'),
+('559','Fechado dos Lados'),
+('561','Fechado dos Lados'),
+('376','Sem Abrigo'),
+('375','Fechado dos Lados'),
+('980','Fechado dos Lados'),
+('685','Sem Abrigo'),
+('603','Sem Abrigo'),
+('623','Sem Abrigo'),
+('1032','Fechado dos Lados'),
+('631','Fechado dos Lados'),
+('627','Sem Abrigo'),
+('615','Fechado dos Lados'),
+('619','Fechado dos Lados'),
+('43','Fechado dos Lados'),
+('979','Fechado dos Lados'),
+('978','Fechado dos Lados'),
+('14','Sem Abrigo'),
+('21','Fechado dos Lados'),
+('672','Sem Abrigo'),
+('168','Fechado dos Lados'),
+('144','Fechado dos Lados'),
+('794','Sem Abrigo'),
+('681','Fechado dos Lados'),
+('187','Sem Abrigo'),
+('481','Sem Abrigo'),
+('459','Fechado dos Lados'),
+('897','Fechado dos Lados'),
+('895','Fechado dos Lados'),
+('493','Fechado dos Lados'),
+('471','Sem Abrigo'),
+('906','Fechado dos Lados'),
+('484','Sem Abrigo'),
+('479','Sem Abrigo'),
+('478','Fechado dos Lados'),
+('477','Fechado dos Lados'),
+('475','Sem Abrigo'),
+('474','Sem Abrigo'),
+('463','Sem Abrigo'),
+('8','Sem Abrigo'),
+('5','Sem Abrigo')]
 ,[
   aresta('183','791')
 , aresta('791','595')

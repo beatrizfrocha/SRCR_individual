@@ -62,4 +62,9 @@ trajeto_sem_op(G,A,B,O,P) :- exclui_op(G,O,R), caminho(R,A,B,P).
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
 % Escolher o percurso que passe apenas por abrigos com publicidade
 
-trajeto_com_abrigo(G,A,B,P) :- exclui_op(G,['No'],R), caminho(R,A,B,P).
+trajeto_com_publicidade(G,A,B,P) :- exclui_op(G,['No'],R), caminho(R,A,B,P).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Escolher o percurso que passe apenas por paragens abrigadas
+
+trajeto_com_abrigo(G,A,B,P) :- exclui_op(G,['Sem Abrigo'],R), caminho(R,A,B,P).
