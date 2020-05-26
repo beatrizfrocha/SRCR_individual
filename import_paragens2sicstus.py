@@ -41,9 +41,9 @@ if __name__ == "__main__":
             + row["Operadora"]
             + "'"
             + ","
-            + "'"
+            + "["
             + str(row["Carreira"])
-            + "'"
+            + "]"
             + ","
             + "'"
             + str(row["Codigo de Rua"])
