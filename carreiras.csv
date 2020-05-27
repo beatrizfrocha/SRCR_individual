@@ -80,8 +80,7 @@ gid,latitude,longitude,Estado de Conservacao,Tipo de Abrigo,Abrigo com Publicida
 980,-104256.82,-95173.34,Bom,Fechado dos Lados,Yes,Carris,714,306,Rua dos Cravos de Abril,Carnaxide e Queijas
 627,-104278.886665975,-94122.5660363502,Bom,Sem Abrigo,No,Carris,714,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 43,-104445.64,-94921.33,Bom,Fechado dos Lados,No,Carris,714,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
-631,-104458.04,-94329.86,Bom,"Fechado dos Lados
-",No,Carris,714,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
+631,-104458.04,-94329.86,Bom,"Fechado dos Lados",No,Carris,714,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 619,-104458.52,-94926.22,Bom,Fechado dos Lados,Yes,Carris,714,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
 615,-104497.842173306,-94358.908881103,Bom,Fechado dos Lados,Yes,Carris,714,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 623,-104578.88,-94652.12,Bom,Sem Abrigo,No,Carris,714,365,Estrada da Portela,Carnaxide e Queijas
@@ -264,8 +263,7 @@ gid,latitude,longitude,Estado de Conservacao,Tipo de Abrigo,Abrigo com Publicida
 229,-104718.77,-97838.97,Bom,Fechado dos Lados,No,LT,171,1767,Rua Augusto Fraga,Carnaxide e Queijas
 629,-104278.886665975,-94122.5660363502,Bom,Sem Abrigo,No,LT,162,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 626,-104287.85,-94105.37,Bom,Fechado dos Lados,Yes,LT,162,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
-630,-104458.04,-94329.86,Bom,"Fechado dos Lados
-",No,LT,162,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
+630,-104458.04,-94329.86,Bom,"Fechado dos Lados",No,LT,162,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 616,-104497.842173306,-94358.908881103,Bom,Fechado dos Lados,Yes,LT,162,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 639,-105456.01,-94993.65,Bom,Fechado dos Lados,Yes,LT,162,116,Avenida General Norton de Matos,"Alges, Linda-a-Velha e Cruz Quebrada-Dafundo"
 636,-105462.27,-94976.17,Bom,Fechado dos Lados,Yes,LT,162,116,Avenida General Norton de Matos,"Alges, Linda-a-Velha e Cruz Quebrada-Dafundo"
@@ -404,8 +402,7 @@ gid,latitude,longitude,Estado de Conservacao,Tipo de Abrigo,Abrigo com Publicida
 205,-104431.06,-101723.48,Bom,Fechado dos Lados,Yes,Vimeca,15,692,Rua Conde de Rio Maior,Porto Salvo
 622,-104445.64,-94921.33,Bom,Fechado dos Lados,No,Vimeca,15,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
 230,-104447.68,-98306.88,Bom,Sem Abrigo,No,Vimeca,15,833,Rua Mouzinho da Silveira,Carnaxide e Queijas
-51,-104458.04,-94329.86,Bom,"Fechado dos Lados
-",No,Vimeca,15,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
+51,-104458.04,-94329.86,Bom,"Fechado dos Lados",No,Vimeca,15,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 44,-104458.52,-94926.22,Bom,Fechado dos Lados,Yes,Vimeca,15,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
 234,-104471.99,-98565.73,Bom,Fechado dos Lados,No,Vimeca,15,83,Rua Angra do Heroismo,Carnaxide e Queijas
 38,-104497.842173306,-94358.908881103,Bom,Fechado dos Lados,Yes,Vimeca,15,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
@@ -535,8 +532,7 @@ gid,latitude,longitude,Estado de Conservacao,Tipo de Abrigo,Abrigo com Publicida
 227,-104412.8,-98632.87,Bom,Sem Abrigo,No,Vimeca,13,805,Rua Ilha de Sao Jorge,Carnaxide e Queijas
 622,-104445.64,-94921.33,Bom,Fechado dos Lados,No,Vimeca,13,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
 230,-104447.68,-98306.88,Bom,Sem Abrigo,No,Vimeca,13,833,Rua Mouzinho da Silveira,Carnaxide e Queijas
-51,-104458.04,-94329.86,Bom,"Fechado dos Lados
-",No,Vimeca,13,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
+51,-104458.04,-94329.86,Bom,"Fechado dos Lados",No,Vimeca,13,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 44,-104458.52,-94926.22,Bom,Fechado dos Lados,Yes,Vimeca,13,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
 234,-104471.99,-98565.73,Bom,Fechado dos Lados,No,Vimeca,13,83,Rua Angra do Heroismo,Carnaxide e Queijas
 38,-104497.842173306,-94358.908881103,Bom,Fechado dos Lados,Yes,Vimeca,13,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
@@ -1320,8 +1316,7 @@ gid,latitude,longitude,Estado de Conservacao,Tipo de Abrigo,Abrigo com Publicida
 599,-104296.72,-95828.26,Bom,Fechado dos Lados,Yes,Vimeca,10,327,Avenida do Forte,Carnaxide e Queijas
 40,-104302.13,-95043.86,Bom,Fechado dos Lados,Yes,Vimeca,10,306,Rua dos Cravos de Abril,Carnaxide e Queijas
 622,-104445.64,-94921.33,Bom,Fechado dos Lados,No,Vimeca,10,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
-51,-104458.04,-94329.86,Bom,"Fechado dos Lados
-",No,Vimeca,10,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
+51,-104458.04,-94329.86,Bom,"Fechado dos Lados",No,Vimeca,10,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 38,-104497.842173306,-94358.908881103,Bom,Fechado dos Lados,Yes,Vimeca,10,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 620,-104565.883289922,-94653.6785929183,Bom,Sem Abrigo,No,Vimeca,10,365,Estrada da Portela,Carnaxide e Queijas
 45,-104578.88,-94652.12,Bom,Sem Abrigo,No,Vimeca,10,365,Estrada da Portela,Carnaxide e Queijas
@@ -1519,8 +1514,7 @@ gid,latitude,longitude,Estado de Conservacao,Tipo de Abrigo,Abrigo com Publicida
 249,-104397.14,-96680.46,Bom,Fechado dos Lados,Yes,Vimeca,1,297,Rua Carlos Wallenstein,Carnaxide e Queijas
 254,-104407,-96522.21,Bom,Fechado dos Lados,Yes,Vimeca,1,1279,Avenida Tomas Ribeiro,Carnaxide e Queijas
 622,-104445.64,-94921.33,Bom,Fechado dos Lados,No,Vimeca,1,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
-51,-104458.04,-94329.86,Bom,"Fechado dos Lados
-",No,Vimeca,1,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
+51,-104458.04,-94329.86,Bom,"Fechado dos Lados",No,Vimeca,1,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas
 44,-104458.52,-94926.22,Bom,Fechado dos Lados,Yes,Vimeca,1,1134,Largo Sete de Junho de 1759,Carnaxide e Queijas
 251,-104487.69,-96548.01,Bom,Fechado dos Lados,Yes,Vimeca,1,1279,Avenida Tomas Ribeiro,Carnaxide e Queijas
 38,-104497.842173306,-94358.908881103,Bom,Fechado dos Lados,Yes,Vimeca,1,1123,Rua da Quinta do Paizinho,Carnaxide e Queijas

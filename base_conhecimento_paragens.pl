@@ -45,8 +45,7 @@ paragem('40',-104302.13,-95043.86,'Bom','Fechado dos Lados','Yes','Vimeca',[01,1
 paragem('39',-104282.32,-95055.6,'Bom','Fechado dos Lados','Yes','Vimeca',[01,10,13,15],'306.0','Rua dos Cravos de Abril','Carnaxide e Queijas').
 paragem('620',-104565.8832899218,-94653.67859291832,'Bom','Sem Abrigo','No','Vimeca',[01,10,13,15],'365.0','Estrada da Portela','Carnaxide e Queijas').
 paragem('45',-104578.88,-94652.12,'Bom','Sem Abrigo','No','Vimeca',[01,10,13,15],'365.0','Estrada da Portela','Carnaxide e Queijas').
-paragem('51',-104458.04,-94329.86,'Bom','Fechado dos Lados
-','No','Vimeca',[01,10,13,15],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
+paragem('51',-104458.04,-94329.86,'Bom','Fechado dos Lados','No','Vimeca',[01,10,13,15],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('628',-104278.8866659752,-94122.56603635015,'Bom','Sem Abrigo','No','Vimeca',[01,10,13,15],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('50',-104287.85,-94105.37,'Bom','Fechado dos Lados','Yes','Vimeca',[01,10,13,15],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('38',-104497.842173306,-94358.90888110301,'Bom','Fechado dos Lados','Yes','Vimeca',[01,10,13,15],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
@@ -262,7 +261,7 @@ paragem('584',-108725.34,-103548.2,'Bom','Fechado dos Lados','No','LT',[106],'13
 paragem('583',-108734.22,-103555.55,'Bom','Fechado dos Lados','No','LT',[106],'1392.0','Rua da Medrosa','Oeiras e Sao Juliao da Barra, Paco de Arcos e Caxias').
 paragem('285',-105368.2,-101892.7,'Bom','Sem Abrigo','No','LT',[106],'1497.0','Avenida dos Bombeiros Voluntarios de Oeiras','Porto Salvo').
 paragem('284',-105349.84,-101863.8,'Bom','Sem Abrigo','No','LT',[106],'1497.0','Avenida dos Bombeiros Voluntarios de Oeiras','Porto Salvo').
-paragem('751',-103269.77,-101294.22,'Bom','Sem Abrigo','No','LT',[106,,112,119],'262.0','Estrada de Leceia','Porto Salvo').
+paragem('751',-103269.77,-101294.22,'Bom','Sem Abrigo','No','LT',[106,112,119],'262.0','Estrada de Leceia','Porto Salvo').
 paragem('310',-107559.62,-102708.32,'Bom','Fechado dos Lados','Yes','LT',[106,111,112,115,122],'514.0','Largo Aviao Lusitania','Oeiras e Sao Juliao da Barra, Paco de Arcos e Caxias').
 paragem('505',-107655.06,-102500.24,'Bom','Fechado dos Lados','Yes','LT',[106,111,112,115,122],'533.0','Rua Candido dos Reis','Oeiras e Sao Juliao da Barra, Paco de Arcos e Caxias').
 paragem('501',-107752.93,-102745.45,'Bom','Fechado dos Lados','Yes','LT',[106,111,112,115,122],'559.0','Rua Desembargador Faria','Oeiras e Sao Juliao da Barra, Paco de Arcos e Caxias').
@@ -626,7 +625,7 @@ paragem('295',-105236.25,-102190.54,'Bom','Fechado dos Lados','Yes','Vimeca',[15
 paragem('293',-105274.84,-101913.18,'Bom','Fechado dos Lados','Yes','Vimeca',[15],'1682.0','Avenida Santa Casa da Misericordia de Oeiras','Porto Salvo').
 paragem('292',-105227.47,-102176.58,'Bom','Fechado dos Lados','Yes','Vimeca',[15],'1682.0','Avenida Santa Casa da Misericordia de Oeiras','Porto Salvo').
 paragem('291',-105291.98,-101912.29,'Bom','Fechado dos Lados','Yes','Vimeca',[15],'1682.0','Avenida Santa Casa da Misericordia de Oeiras','Porto Salvo').
-paragem('719',-102227.22,-101894.71,'Bom','Fechado dos Lados','Yes','Vimeca',[15,],'1667.0','Avenida Professor Dr. Cavaco Silva','Porto Salvo').
+paragem('719',-102227.22,-101894.71,'Bom','Fechado dos Lados','Yes','Vimeca',[15],'1667.0','Avenida Professor Dr. Cavaco Silva','Porto Salvo').
 paragem('729',-102515.87,-101878.09,'Bom','Fechado dos Lados','Yes','Vimeca',[15,23],'1667.0','Avenida Professor Dr. Cavaco Silva','Porto Salvo').
 paragem('718',-102227.55,-101920.36,'Bom','Fechado dos Lados','Yes','Vimeca',[15,23],'1667.0','Avenida Professor Dr. Cavaco Silva','Porto Salvo').
 paragem('706',-101856.51,-101822.02,'Bom','Fechado dos Lados','Yes','Vimeca',[15,23],'1667.0','Avenida Professor Dr. Cavaco Silva','Porto Salvo').
@@ -678,8 +677,7 @@ paragem('634',-105696.83,-95075.27,'Bom','Fechado dos Lados','Yes','LT',[162],'1
 paragem('12',-105655.76,-95028.52,'Bom','Fechado dos Lados','Yes','LT',[162],'116.0','Avenida General Norton de Matos','Alges, Linda-a-Velha e Cruz Quebrada-Dafundo').
 paragem('666',-106799.63,-95251.22,'Bom','Sem Abrigo','No','LT',[162],'155.0','Praca Doutor Manuel Martins','Alges, Linda-a-Velha e Cruz Quebrada-Dafundo').
 paragem('658',-106786.85846811836,-95149.7421827531,'Bom','Fechado dos Lados','Yes','LT',[162],'155.0','Praca Doutor Manuel Martins','Alges, Linda-a-Velha e Cruz Quebrada-Dafundo').
-paragem('630',-104458.04,-94329.86,'Bom','Fechado dos Lados
-','No','LT',[162],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
+paragem('630',-104458.04,-94329.86,'Bom','Fechado dos Lados','No','LT',[162],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('629',-104278.8866659752,-94122.56603635015,'Bom','Sem Abrigo','No','LT',[162],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('626',-104287.85,-94105.37,'Bom','Fechado dos Lados','Yes','LT',[162],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('616',-104497.842173306,-94358.90888110301,'Bom','Fechado dos Lados','Yes','LT',[162],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
@@ -769,8 +767,7 @@ paragem('685',-104174.54200948932,-95114.07850277537,'Bom','Sem Abrigo','No','Ca
 paragem('603',-104172.68511969529,-95216.43740152338,'Bom','Sem Abrigo','No','Carris',[714],'347.0','Rua da Liberdade','Carnaxide e Queijas').
 paragem('623',-104578.88,-94652.12,'Bom','Sem Abrigo','No','Carris',[714],'365.0','Estrada da Portela','Carnaxide e Queijas').
 paragem('1032',-104222.84172433561,-94001.25535769734,'Bom','Fechado dos Lados','Yes','Carris',[714],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
-paragem('631',-104458.04,-94329.86,'Bom','Fechado dos Lados
-','No','Carris',[714],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
+paragem('631',-104458.04,-94329.86,'Bom','Fechado dos Lados','No','Carris',[714],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('627',-104278.8866659752,-94122.56603635015,'Bom','Sem Abrigo','No','Carris',[714],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('615',-104497.842173306,-94358.90888110301,'Bom','Fechado dos Lados','Yes','Carris',[714],'1123.0','Rua da Quinta do Paizinho','Carnaxide e Queijas').
 paragem('619',-104458.52,-94926.22,'Bom','Fechado dos Lados','Yes','Carris',[714],'1134.0','Largo Sete de Junho de 1759','Carnaxide e Queijas').
