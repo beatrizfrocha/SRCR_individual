@@ -99,3 +99,17 @@ comprimento_lista_carreiras(G,P,R) :- devolve_lista_carreiras(G,P,(X,R1)), lengt
 
 devolve_lista_carreiras(grafo([(X,Y)|T],B),P,R) :- P == X, R = (P,Y);
                                                    devolve_lista_carreiras(grafo(T,B),P,R).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Escolher um ou mais pontos intermédios por onde o percurso deverá passar.
+
+caminho_com_pontos_intermedios(G, PI, [], PF, Caminho)
+    :- caminho(G, PI, PF, Caminho).
+
+caminho_com_pontos_intermedios(G, PI, [P | Ps], PF, Caminho) :-
+    caminho(G, PI, P, Caminho1),
+    caminho_com_pontos_intermedios(G, P, Ps, PF, Caminho_Restante),
+    tail(Caminho_Restante, T),
+    append(Caminho1, T, Caminho).
+
+tail([H|T],T).
