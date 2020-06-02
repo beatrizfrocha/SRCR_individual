@@ -18,6 +18,7 @@
 :- include('base_conhecimento_carreiras.pl').
 :- include('grafo.pl').
 
+:- use_module(library(lists)).
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
 % Calcular um trajeto entre dois pontos
 
@@ -87,10 +88,7 @@ lista_maiores([(X,Y) | T], R) :-
 
 segundo_elemento((X,Y),Y).
 
-cabeca([], (x, 0)).
-cabeca([H|T], H).
-
-segundo_da_cabeca(L, R) :- cabeca(L, P), segundo_elemento(P, R).
+segundo_da_cabeca(L, R) :- head(L, P), segundo_elemento(P, R).
 
 obtem_comprimentos_listas_carreiras(G, [], []).
 obtem_comprimentos_listas_carreiras(G, [H|T], L) :- comprimento_lista_carreiras(G,H,A), obtem_comprimentos_listas_carreiras(G,T,B), append([A],B,L).
@@ -99,6 +97,26 @@ comprimento_lista_carreiras(G,P,R) :- devolve_lista_carreiras(G,P,(X,R1)), lengt
 
 devolve_lista_carreiras(grafo([(X,Y)|T],B),P,R) :- P == X, R = (P,Y);
                                                    devolve_lista_carreiras(grafo(T,B),P,R).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Escolher o menor percurso (usando critério menor número deparagens)
+
+caminho_com_menor_nr_paragens(G,I,F,R) :- adjacentes(I,G,L1), caminhos(I,F,G,L1,L2), lista_menores(L2,[(A,B)|T]), append([I],A,R);
+                                          caminho(G,I,F,R).
+
+lista_menores([],[]).
+lista_menores([X],[X]).
+lista_menores([(X,Y) | T], R) :- 
+   lista_menores(T, M), segundo_da_cabeca(M, P), Y < P, R = [(X, Y)].
+lista_menores([(X,Y) | T], R) :- 
+   lista_menores(T, M), segundo_da_cabeca(M, P), Y == P, append(M, [(X, Y)], R).
+lista_menores([(X,Y) | T], R) :- 
+   lista_menores(T, M), segundo_da_cabeca(M, P), Y > P, R = M.
+
+caminhos(I,F,G,[],[]).
+caminhos(I,F,G,[H|T],R) :- caminho(G,H,F,L1), caminhos(I,F,G,T,L2), length(L1,R1), append([(L1,R1)],L2,R).
+
+adjacentes(P,G,R) :- findall(X,adjacente(X,P,G),R).
 
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
 % Escolher um ou mais pontos intermédios por onde o percurso deverá passar.
@@ -112,4 +130,3 @@ caminho_com_pontos_intermedios(G, PI, [P | Ps], PF, Caminho) :-
     tail(Caminho_Restante, T),
     append(Caminho1, T, Caminho).
 
-tail([H|T],T).
