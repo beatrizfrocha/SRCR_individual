@@ -99,7 +99,7 @@ devolve_lista_carreiras(grafo([(X,Y)|T],B),P,R) :- P == X, R = (P,Y);
                                                    devolve_lista_carreiras(grafo(T,B),P,R).
 
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
-% Escolher o menor percurso (usando critério menor número deparagens)
+% Escolher o menor percurso (usando critério menor número de paragens)
 
 caminho_com_menor_nr_paragens(G,I,F,R) :- adjacentes(I,G,L1), caminhos(I,F,G,L1,L2), lista_menores(L2,[(A,B)|T]), append([I],A,R);
                                           caminho(G,I,F,R).
@@ -117,6 +117,28 @@ caminhos(I,F,G,[],[]).
 caminhos(I,F,G,[H|T],R) :- caminho(G,H,F,L1), caminhos(I,F,G,T,L2), length(L1,R1), append([(L1,R1)],L2,R).
 
 adjacentes(P,G,R) :- findall(X,adjacente(X,P,G),R).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Escolher o percurso mais rápido (usando critério da distância)
+
+caminho_com_menor_distancia(G,I,F,R) :- adjacentes(I,G,L1), caminhos_com_distancia(I,F,G,L1,L2), lista_menores(L2,[(A,B)|T]), append([I],A,R);
+                                          caminho(G,I,F,R).
+
+caminhos_com_distancia(I,F,G,[],[]).
+caminhos_com_distancia(I,F,G,[H|T],R) :- caminho(G,H,F,L1), caminhos_com_distancia(I,F,G,T,L2), 
+   maplist(coordenadas(G),L1,Y), distancia_total(Y,R1), 
+   coordenadas(G,I,CI), coordenadas(G,H,CH), distancia_entre_pontos(CI,CH,RC), Result is R1 + RC,
+   append([(L1,Result)],L2,R).
+
+coordenadas([],X,(_,_)). 
+coordenadas(grafo([(A,B)|T],C),X,R) :- X == A, R = B;
+                                       coordenadas(grafo(T,C),X,R).
+
+distancia_total([],0).
+distancia_total([X],0).
+distancia_total([X,Y|T],R) :- distancia_entre_pontos(X,Y,R1), distancia_total([Y|T],R2), R is R1+R2.
+
+distancia_entre_pontos((X1,Y1),(X2,Y2),R) :- R1 = (X1-X2), R2 = (Y1-Y2), R3 is exp(R1,2), R4 is exp(R2,2), R is sqrt(R3+R4).
 
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
 % Escolher um ou mais pontos intermédios por onde o percurso deverá passar.
