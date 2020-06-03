@@ -88,7 +88,10 @@ lista_maiores([(X,Y) | T], R) :-
 
 segundo_elemento((X,Y),Y).
 
-segundo_da_cabeca(L, R) :- head(L, P), segundo_elemento(P, R).
+cabeca([], (x, 0)).
+cabeca([H|T], H).
+
+segundo_da_cabeca(L, R) :- cabeca(L, P), segundo_elemento(P, R).
 
 obtem_comprimentos_listas_carreiras(G, [], []).
 obtem_comprimentos_listas_carreiras(G, [H|T], L) :- comprimento_lista_carreiras(G,H,A), obtem_comprimentos_listas_carreiras(G,T,B), append([A],B,L).
