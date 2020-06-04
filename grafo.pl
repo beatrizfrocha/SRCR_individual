@@ -12,3 +12,5 @@ g_abrigo(grafo(Pontos,Arestas)) :- abrigos(Pontos),arestas(Arestas).
 g_carreiras(grafo(Pontos,Arestas)) :- carreiras(Pontos),arestas(Arestas).
 
 g_distancias(grafo(Pontos,Arestas)) :- coordenadas(Pontos),arestas(Arestas).
+
+

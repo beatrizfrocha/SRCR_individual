@@ -61,16 +61,6 @@ exclui_op(grafo(A,B),L,R) :- equals(A,L,R1), remove_aresta(B,R1,R2), R = grafo(A
 trajeto_sem_op(G,A,B,O,P) :- exclui_op(G,O,R), caminho(R,A,B,P).
 
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
-% Escolher o percurso que passe apenas por abrigos com publicidade
-
-trajeto_com_publicidade(G,A,B,P) :- exclui_op(G,['No'],R), caminho(R,A,B,P).
-
-%--------------------------------- - - - - - - - - - -  -  -  -  -   -
-% Escolher o percurso que passe apenas por paragens abrigadas
-
-trajeto_com_abrigo(G,A,B,P) :- exclui_op(G,['Sem Abrigo'],R), caminho(R,A,B,P).
-
-%--------------------------------- - - - - - - - - - -  -  -  -  -   -
 % Identificar quais as paragens com o maior número de carreiras num determinado percurso
 
 max_carreiras(G,A,B,L) :- caminho(G,A,B,P), obtem_comprimentos_listas_carreiras(G,P,R1), lista_maiores(R1,R2), lista_primeiro_elem(R2,L).
@@ -86,12 +76,12 @@ lista_maiores([(X,Y) | T], R) :-
 lista_maiores([(X,Y) | T], R) :- 
    lista_maiores(T, M), segundo_da_cabeca(M, P), Y < P, R = M.
 
+segundo_da_cabeca(L, R) :- cabeca(L, P), segundo_elemento(P, R).
+
 segundo_elemento((X,Y),Y).
 
 cabeca([], (x, 0)).
 cabeca([H|T], H).
-
-segundo_da_cabeca(L, R) :- cabeca(L, P), segundo_elemento(P, R).
 
 obtem_comprimentos_listas_carreiras(G, [], []).
 obtem_comprimentos_listas_carreiras(G, [H|T], L) :- comprimento_lista_carreiras(G,H,A), obtem_comprimentos_listas_carreiras(G,T,B), append([A],B,L).
@@ -142,6 +132,16 @@ distancia_total([X],0).
 distancia_total([X,Y|T],R) :- distancia_entre_pontos(X,Y,R1), distancia_total([Y|T],R2), R is R1+R2.
 
 distancia_entre_pontos((X1,Y1),(X2,Y2),R) :- R1 = (X1-X2), R2 = (Y1-Y2), R3 is exp(R1,2), R4 is exp(R2,2), R is sqrt(R3+R4).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Escolher o percurso que passe apenas por abrigos com publicidade
+
+trajeto_com_publicidade(G,A,B,P) :- exclui_op(G,['No'],R), caminho(R,A,B,P).
+
+%--------------------------------- - - - - - - - - - -  -  -  -  -   -
+% Escolher o percurso que passe apenas por paragens abrigadas
+
+trajeto_com_abrigo(G,A,B,P) :- exclui_op(G,['Sem Abrigo'],R), caminho(R,A,B,P).
 
 %--------------------------------- - - - - - - - - - -  -  -  -  -   -
 % Escolher um ou mais pontos intermédios por onde o percurso deverá passar.
